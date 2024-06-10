@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(0, 65, 14);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+}
+
+#container {
+    margin: auto;
+    width: 90%;
+}
+
+header {
+    background-color: black;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    width: 15%;
+}
+
+nav ul li {
+    background-color: rgb(0, 175, 73);
+    list-style-type: none;
+    float: left;
+    padding-top: 15px;
+    width: calc(100% / 5);
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+}
+
+nav ul a li {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: white;
+}
+
+nav #datos li {
+    background-color: rgb(0, 175, 73);
+    list-style-type: none;
+    float: left;
+    padding-top: 15px;
+    width: 100%;
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+}
+
+#datos li:hover {
+    background-color: white;
+}
+
+#contenido {
+    background-color: white;
+    color: black;
+    padding: 5%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: auto;
+}
+
+#contenido article h1 {
+    background-color: #bdecb6;
+    color: black;
+    text-align: center;
+}
+
+.imgsindex {
+    display: block;
+    margin: auto;
+}
+
+.subs {
+    background-color: #bdecb6;
+    color: black;
+    text-align: center;
+}
+
+#contentS {
+    margin: 0px;
+    text-align: center;
+}
+
+#contentS img {
+    vertical-align: middle;
+}
+
+#contenido p {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+#contenido .left {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
